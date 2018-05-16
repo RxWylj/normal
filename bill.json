@@ -1,0 +1,161 @@
+// 信用卡还款情况
+{
+	dataTrue: [
+		{
+			month: '201805',
+			bill: [
+				{
+					bankName: '光大银行',
+					totleRepayment: 2768.21,
+					minimumRepayment: 150,
+					alreadyRepaid: 150,
+					accumulation: true,
+					repaid:	true
+				},
+				{
+					bankName: '中信银行',
+					totleRepayment: 16483.52,
+					minimumRepayment: 850,
+					alreadyRepaid: 850,
+					accumulation: true,
+					repaid: true
+				},
+				{
+					bankName: '浦发银行',
+					totleRepayment: 44060.43,
+					minimumRepayment: 3100,
+					alreadyRepaid: 3100,
+					accumulation: true,
+					repaid: false
+				},
+				{
+					bankName: '兴业银行',
+					totleRepayment: 31262.16,
+					minimumRepayment: 2600,
+					alreadyRepaid: 2600,
+					accumulation: true,
+					repaid: true
+				},
+				{
+					bankName: '交通银行',
+					totleRepayment: 6497.09,
+					minimumRepayment: 1850,
+					alreadyRepaid: 1850,
+					accumulation: true,
+					repaid: true
+				},
+				{
+					bankName: '招商银行',
+					totleRepayment: 18639.37,
+					minimumRepayment: 2300,
+					alreadyRepaid: 2300,
+					accumulation: true,
+					repaid: true
+				},
+				{
+					bankName: '花呗',
+					totleRepayment: 595.67,
+					minimumRepayment: 1970,
+					alreadyRepaid: 1970,
+					accumulation: true,
+					repaid: true
+				},
+				{
+					bankName: '借呗',
+					totleRepayment: 5713,
+					minimumRepayment: 1711,
+					alreadyRepaid: 1711,
+					accumulation: true,
+					repaid:true
+				},
+				{
+					bankName: '房租',
+					totleRepayment: 0,
+					minimumRepayment: 1350,
+					alreadyRepaid: 1350,
+					accumulation: false,
+					repaid: true
+				}
+			]
+		}
+	]，
+	dataBackups: [
+		{
+			month: '201805',
+			bill: [
+				{
+					bankName: '光大银行',
+					totleRepayment: '',
+					minimumRepayment: '',
+					accumulation: true,
+					alreadyRepaid: ,
+					repaid:	false
+				},
+				{
+					bankName: '中信银行',
+					totleRepayment: '',
+					minimumRepayment: '',
+					accumulation: true,
+					alreadyRepaid: ,
+					repaid: false
+				},
+				{
+					bankName: '浦发银行',
+					totleRepayment: '',
+					minimumRepayment: '',
+					accumulation: true,
+					alreadyRepaid: ,
+					repaid: false
+				},
+				{
+					bankName: '兴业银行',
+					totleRepayment: '',
+					minimumRepayment: '',
+					accumulation: true,
+					alreadyRepaid: ,
+					repaid: false
+				},
+				{
+					bankName: '交通银行',
+					totleRepayment: '',
+					minimumRepayment: '',
+					accumulation: true,
+					alreadyRepaid: ,
+					repaid: false
+				},
+				{
+					bankName: '招商银行',
+					totleRepayment: '',
+					minimumRepayment: '',
+					accumulation: true,
+					alreadyRepaid: ,
+					repaid: false
+				},
+				{
+					bankName: '花呗',
+					totleRepayment: '',
+					minimumRepayment: '',
+					accumulation: true,
+					alreadyRepaid: ,
+					repaid: false
+				},
+				{
+					bankName: '借呗',
+					totleRepayment: '',
+					minimumRepayment: '',
+					accumulation: true,
+					alreadyRepaid: ,
+					repaid: false
+				},
+				{
+					bankName: '房租', // 类型
+					totleRepayment: '', //总额
+					minimumRepayment: '', // 最低金额
+					alreadyRepaid: , // 已还金额
+					accumulation: false, // 是否累加
+					repaid: false // 是否还清
+				}
+			]
+		}
+	]
+}
